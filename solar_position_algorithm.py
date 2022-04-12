@@ -14,7 +14,7 @@ class SPA:
     Solar Position Algorithm for Solar Radiation Applications
     """
     def __init__(self):
-        self.path_prefix = "data/solar/"
+        self.path_prefix = "data/"
         self.file_extension = ".txt"
 
         self.r0_data = np.genfromtxt(pkg_resources.resource_filename(__name__, self.path_prefix \
